@@ -1,0 +1,7 @@
+ # Program to Create the below pattern using nested for loop in Python.   
+    for i in range(6):
+        print(i*("*"))
+    if i == 5:
+        for x in range(i):
+            i = i-1
+            print(i*("*"))
